@@ -1,4 +1,4 @@
-假设在flexlayout中存在k个分配顺序，每个分配中存在 $m_1,m_2,...,m_k$ 个元素。则旧算法的最劣复杂度为 $O(\sum_{i=1}^k\frac{m_k*(m_k + 1)}{2})$
+假设在有 n 个子视图的flexlayout中存在k个分配顺序，每个分配中存在 $m_1,m_2,...,m_k$ 个元素。则旧算法的最劣复杂度为 $O(\sum_{i=1}^k\frac{m_k*(m_k + 1)}{2})$
 
 ![Alt text](./image.png)
 
