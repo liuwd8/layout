@@ -25,9 +25,9 @@ $$
 $$
 \begin{aligned}
 3* O(\sum_{i=1}^k\frac{m_k*(m_k + 1)}{2}) &= \frac{3}{2}* O(\sum_{i=1}^km_k^2 + \sum_{i=1}^km_k) \\
-&=\frac{3}{2}*O(\sum_{i=1}^km_k^2 + n) \\
+&=\frac{3}{2}\*O(\sum_{i=1}^km_k^2 + n) \\
 &\leq \frac{3}{2}O(n^2+n) \\
-&=3*O_{old}
+&=3*O_{old} \\
 \end{aligned}
 $$
 
