@@ -1,4 +1,4 @@
-Assume that there are k allocation sequences in flexlayout, and there are $m_1,m_2,...,m_k$ elements in each allocation. Then the worst complexity of the old algorithm is $$O(\sum_{i=1}^k\frac{m_k*(m_k + 1)}{2})$$
+Assume that there are k allocation sequences in flexlayout with n elements, and there are $m_1,m_2,...,m_k$ elements in each allocation. Then the worst complexity of the old algorithm is $$O(\sum_{i=1}^k\frac{m_k*(m_k + 1)}{2})$$
 
 ![Alt text](./image.png)
 
